@@ -1,16 +1,16 @@
-.logo__item {
+.clients__item {
   margin-right: 30px;
   &:nth-child(6n) {
     margin-right: 0;
   }
-  & .logo__link:hover,
-  & .logo__link:focus {
+  & .clients__link:hover,
+  & .clients__link:focus {
     fill: $accent-color;
     border-color: $accent-color;
   }
 }
 
-.logo__link {
+.clients__link {
   display: flex;
   align-items: center;
   justify-content: center;

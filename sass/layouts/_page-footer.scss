@@ -4,16 +4,12 @@
   background-color: $backgroud-gray;
 }
 
-.list--colum {
-  flex-direction: column;
-}
-
 .footer {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
 }
-.bold {
+.footer__subtitle {
   line-height: 1.14;
   text-transform: uppercase;
   color: $white;
